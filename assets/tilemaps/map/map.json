@@ -1,0 +1,32 @@
+{ "height":10,
+ "layers":[
+        {
+         "data":[2, 1, 2, 2, 2, 1, 2, 2, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+         "height":10,
+         "name":"laberinto",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":10,
+         "x":0,
+         "y":0
+        }],
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tileheight":24,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "image":"..\/tiles\/tileset.png",
+         "imageheight":36,
+         "imagewidth":48,
+         "tileheight":36,
+         "tilewidth":24,
+         "margin":0,
+         "name":"tileset",
+         "spacing":0
+        }],
+ "tilewidth":24,
+ "version":1,
+ "width":10
+}
