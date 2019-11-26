@@ -1,12 +1,1 @@
-lib/phaser.min.js
-lib/2.13/phaser.min.js
-lib/typescript/box2d.d.ts
-lib/typescript/p2.d.ts
-lib/typescript/phaser_box2d.d.ts
-lib/typescript/phaser.comments.d.ts
-lib/typescript/phaser.d.ts
-lib/typescript/pixi.comments.d.ts
-lib/typescript/pixi.d.ts
-lib/typescript/README.md
-lib/typescript/tslint.json
-lib/typescript/typings.json
+
