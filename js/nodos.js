@@ -11,7 +11,7 @@
 function Nodo(num, val, fil, col, bool) {
 
     var id = num || 0;
-    var valor = val || 2;
+    var valor = val || 1;
     var fila = fil || 0;
     var columna = col || 0;
     var visitado = bool || false;
@@ -58,7 +58,7 @@ function Nodo(num, val, fil, col, bool) {
     var nodos = [];
   
   
-    this.getNodo = function (num) {
+    this.getNodoById = function (num) {
       return nodos[num]
     };
   
@@ -66,6 +66,12 @@ function Nodo(num, val, fil, col, bool) {
       if (id == nodos.length) id = 0;
       return nodos[id++]
     };
+
+    this.getNodos = function () {
+      return nodos;
+    };
+
+    
   
     this.createNodos = function (cant) {
   
@@ -75,6 +81,12 @@ function Nodo(num, val, fil, col, bool) {
   
       }
   
+    }
+
+    this.reset = function (){
+
+      for (const nodo of nodos) nodo.setValor=1;
+
     }
   
   };
